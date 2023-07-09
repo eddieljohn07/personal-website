@@ -1,7 +1,5 @@
 body{
     background-color: hsl(225, 59%, 11%);
-    margin-left:40px;
-    margin-right: 40px;
 }
 
 * {
@@ -23,8 +21,14 @@ header {
 }
 
 @media (max-width: 767px) {
+    body{
+        margin-left:40px;
+        margin-right: 40px;
+    }
+    
     #display{
-        width: 70%;
+        display: flex;
+        width: 90%;
         border-radius: 50%;
     }
 }
