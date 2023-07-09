@@ -7,11 +7,15 @@ body{
   color: white;
 }
 
+
 .colored-txt {
     color: #6FFFE9;
 }
 
 
 @media (max-width: 767px) {
-  
+    #display{
+        width: 70%;
+        border-radius: 50%;
+    }
 }
