@@ -4,7 +4,14 @@ body{
 
 * {
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
+
+.colored-txt {
+    color: #6FFFE9;
+}
+
+
 @media (max-width: 767px) {
   
 }
