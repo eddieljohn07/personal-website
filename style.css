@@ -12,10 +12,21 @@ body{
     color: #6FFFE9;
 }
 
-.greeting {
-
+#display{
+    border-radius: 50%;
 }
 
+.greeting h2 {
+    font-weight: 500;
+}
+
+about-content h2{
+    font-weight: 500;
+}   
+
+about-content p{
+    font-weight: 300;
+}
 header {
     display: flex;
 }
@@ -26,9 +37,41 @@ header {
         margin-right: 40px;
     }
     
+    home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #display{
         display: flex;
         width: 90%;
-        border-radius: 50%;
+        padding-top: 20px;
+        box-shadow: 10px 10px 0px 0px rgba(0, 102, 255, 0.08);
     }
+
+    .greeting{
+        padding-top: 50px;
+        margin: 0;
+    }
+    
+    .greeting h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .greeting h2{
+        margin:0;
+    }
+
+    about h1{
+        font-size: 3rem;
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    about-content h2{
+        
+    }   
+    
 }
