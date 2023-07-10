@@ -37,6 +37,21 @@ header {
         margin-right: 40px;
     }
     
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburgerMenu {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    }
+
+
     home{
         display: flex;
         flex-direction: column;
