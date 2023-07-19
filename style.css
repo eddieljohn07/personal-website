@@ -51,6 +51,10 @@ header {
     'opsz' 48
     }
 
+    .hamburgerMenu span {
+        color: #6FFFE9;
+        font-size: 2em;
+    }
 
     home{
         display: flex;
