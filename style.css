@@ -61,7 +61,7 @@ header {
     #display{
         display: flex;
         width: 90%;
-        padding-top: 20px;
+        padding-top: 0px;
         box-shadow: 10px 10px 0px 0px rgba(0, 102, 255, 0.08);
     }
 
