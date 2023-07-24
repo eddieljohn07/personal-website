@@ -31,6 +31,19 @@ header {
     display: flex;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+    color: #6FFFE9;
+}
+
+
 @media (max-width: 900px) {
     body{
         margin-left:40px;
