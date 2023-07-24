@@ -43,6 +43,9 @@ header {
 .stack .material-symbols-outlined {
     color: #6FFFE9;
     font-size: 3em;
+    border: 5px solid #6FFFE9;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .techStack {
