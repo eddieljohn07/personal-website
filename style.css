@@ -43,6 +43,11 @@ header {
     color: #6FFFE9;
 }
 
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 @media (max-width: 900px) {
     body{
