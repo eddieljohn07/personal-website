@@ -37,10 +37,12 @@ header {
   'wght' 700,
   'GRAD' 200,
   'opsz' 48
+  
 }
 
-.material-symbols-outlined {
+.stack .material-symbols-outlined {
     color: #6FFFE9;
+    font-size: 3em;
 }
 
 .techStack {
