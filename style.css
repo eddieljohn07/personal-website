@@ -48,6 +48,13 @@ header {
     flex-wrap: wrap;
 }
 
+.techStack .stack{
+    border: 2px solid #6FFFE9;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
 
 @media (max-width: 900px) {
     body{
