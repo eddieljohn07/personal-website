@@ -258,6 +258,45 @@ projects{
         font-size: .9rem;
         font-weight: 200;
     }
+
+    contact contactContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    contact h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    contact h2{
+        font-size: 2.2em;
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+    }
+
+    contact .interested {
+        padding-bottom: 1.5rem;
+    }
+
+    contact p{
+        font-size: 1.5em;
+        font-weight: 300;
+        font-style: italic;
+        width: 90%;
+        margin-bottom: 1.75em;
+    }
+
+    contact .email{
+        border: 2.5px solid #6FFFE9;
+        padding: 1.25rem 2.25rem 1.25rem 2.25rem;
+        border-radius: 10px;
+        margin-bottom: 4rem;
+    }
 }
 
 @media screen and (min-width: 900px) {
