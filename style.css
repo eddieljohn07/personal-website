@@ -114,6 +114,15 @@ projects{
     display: flex;
 }
 
+@media screen and (max-width: 381px) {
+    .stack{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 99.5%;
+        height: 230px;
+    }
+  }
 
 @media (max-width: 900px) {
     body{
