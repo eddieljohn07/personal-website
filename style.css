@@ -297,6 +297,15 @@ projects{
         border-radius: 10px;
         margin-bottom: 4rem;
     }
+
+    footer{
+        display: flex;
+    }
+
+    left-footer{
+        font-size: 1rem;
+        font-weight: 500;
+    }
 }
 
 @media screen and (min-width: 900px) {
