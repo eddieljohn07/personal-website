@@ -300,11 +300,24 @@ projects{
 
     footer{
         display: flex;
+        justify-content: space-between;
+        padding: 3rem 0 3rem 0;
     }
 
     left-footer{
         font-size: 1rem;
         font-weight: 500;
+    }
+
+    right-footer{
+        display: flex;
+        width: 4.5rem;
+        justify-content: space-between;
+    }
+
+    right-footer img{
+        height: 25px;
+        width: auto;
     }
 }
 
