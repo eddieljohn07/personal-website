@@ -21,18 +21,18 @@ a {
 header {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
-
 header nav{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
+    width: 40%;
+    margin-left: auto;
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 header a{
