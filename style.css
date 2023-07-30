@@ -1,5 +1,7 @@
 body{
     background-color: hsl(225, 59%, 11%);
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 * {
@@ -115,6 +117,11 @@ projects{
 }
 
 @media screen and (max-width: 381px) {
+    body{
+        margin-left:.5rem;
+        margin-right:.5rem;
+    }
+
     .stack{
         display: flex;
         flex-direction: column;
@@ -122,12 +129,13 @@ projects{
         width: 99.5%;
         height: 230px;
     }
+    
   }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     body{
-        margin-left:40px;
-        margin-right: 40px;
+        margin-left:2.5rem;
+        margin-right:2.5rem;
     }
     
     header{
@@ -181,10 +189,6 @@ projects{
         font-size: 3rem;
         padding-top: 3rem;
         margin-bottom: 0;
-    }
-
-    about-content h2{
-        
     }
     
     .techStack {
