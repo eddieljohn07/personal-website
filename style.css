@@ -18,8 +18,32 @@ a {
     color: #6FFFE9;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header a{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
 #display{
     border-radius: 50%;
+    width: 40%;
 }
 
 .greeting h2 {
@@ -110,6 +134,16 @@ header {
 projects{
     display: flex;
     flex-direction: column;
+}
+
+.desktopImg {
+    width: 40%;
+    height: auto;
+}
+
+.mobileImg {
+    width: 11%;
+    height: auto;
 }
 
 .projectlist{
