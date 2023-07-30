@@ -1,10 +1,6 @@
 body{
     background-color: hsl(225, 59%, 11%);
-    margin: 0 auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
     height: 100vh;
-    max-width: 950px;
 }
 
 * {
@@ -54,6 +50,7 @@ home .greetingDesktop{
 width: 40%;
 margin-left: auto;
 }
+
 
 home h1{
     font-size: 2.5em;
@@ -399,6 +396,13 @@ projects{
 }
 
 @media screen and (min-width: 900px) {
+    body{
+        margin: 0 auto;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        max-width: 950px;
+    }
+
     .hamburgerMenu{
       display: none;
     }
