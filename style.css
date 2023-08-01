@@ -204,6 +204,11 @@ projects{
     body{
         margin-left:2.5rem;
         margin-right:2.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        background-size: 150%;
     }
     
     header{
