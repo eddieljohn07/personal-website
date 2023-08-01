@@ -180,10 +180,6 @@ projects{
     height: auto;
 }
 
-.projectlist{
-    display: flex;
-}
-
 @media screen and (max-width: 381px) {
     body{
         margin-left:.5rem;
@@ -449,5 +445,17 @@ projects{
     .stack ul{
         font-size: .75rem;
     }
+
+    projects h1{
+        font-size: 2.5em;
+    }
+
+    .projectList{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 50% 50%;
+        justify-content: space-around;
+    }
+
     
   }
