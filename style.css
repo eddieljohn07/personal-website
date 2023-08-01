@@ -122,8 +122,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 355px;
-    height: 230px;
     background-color: #0B132B;
 }
 
@@ -264,6 +262,11 @@ projects{
         font-size: 3rem;
         padding-top: 3rem;
         margin-bottom: 0;
+    }
+    
+    .stack{
+        width: 355px;
+        height: 230px;
     }
     
     .techStack {
@@ -424,5 +427,5 @@ projects{
     .greeting{
         display: none;
     }
-
+    
   }
