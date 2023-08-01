@@ -268,7 +268,7 @@ projects{
         width: 355px;
         height: 230px;
     }
-    
+
     .techStack {
         display: flex;
         flex-direction: column;
@@ -426,6 +426,11 @@ projects{
 
     .greeting{
         display: none;
+    }
+
+    .stack{
+        width: 15rem ;
+        height: 11rem;
     }
     
   }
