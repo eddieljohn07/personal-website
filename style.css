@@ -452,10 +452,38 @@ projects{
 
     .projectList{
         display: grid;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
         justify-content: space-around;
     }
 
+    projects .projectList .sampleProject{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sampleProject h1{
+        font-size: 1.3rem;
+    }
+
+    .sampleProject a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sampleProject p{
+        width: 60%;
+        font-size: .65rem;
+        font-weight: 400;
+    }
+
+    .sampleProject .devicesImage{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
     
   }
