@@ -521,6 +521,7 @@ rightContact{
         font-size: 2em;
         margin: 1rem;
         margin-left: 0;
+        font-weight: 500;
     }
 
     contact p{
