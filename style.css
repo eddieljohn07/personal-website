@@ -499,6 +499,7 @@ rightContact{
 
     skills p{
         width: 40%;
+        font-weight: 300;
     }
 
     skills{
