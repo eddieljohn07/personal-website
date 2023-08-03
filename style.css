@@ -514,7 +514,7 @@ rightContact{
 
     contact h1{
         font-size: 2.5em;
-        margin-bottom: 12%;
+        margin-bottom: 8%;
     }
 
     contact h2{
@@ -544,5 +544,27 @@ rightContact{
         padding: .5rem 1rem .5rem 1rem;
         border-radius: 10px;
         background-color: #0B132B;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0 3rem 0;
+    }
+
+    left-footer{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    right-footer{
+        display: flex;
+        width: 3rem;
+        justify-content: space-between;
+    }
+
+    right-footer img{
+        height: 1rem;
+        width: auto;
     }
   }
