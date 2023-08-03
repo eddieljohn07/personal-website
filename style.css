@@ -180,6 +180,12 @@ projects{
     height: auto;
 }
 
+rightContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width: 381px) {
     body{
         margin-left:.5rem;
@@ -506,5 +512,37 @@ projects{
         font-size: 1.25rem;
     }
 
-    /* add animation in skills*/
+    contact h1{
+        font-size: 2.5em;
+        margin-bottom: 12%;
+    }
+
+    contact h2{
+        font-size: 2em;
+        margin: 1rem;
+        margin-left: 0;
+    }
+
+    contact p{
+        font-size: 1em;
+        margin-top: 10%;
+    }
+
+    rightContact{
+        width: 20%;
+        align-items: center;
+    }
+
+    contactContent{
+        display: flex;
+        justify-content:space-around;
+        align-items: baseline;
+    }
+
+    contact .email{
+        border: 2.5px solid #6FFFE9;
+        padding: .5rem 1rem .5rem 1rem;
+        border-radius: 10px;
+        background-color: #0B132B;
+    }
   }
