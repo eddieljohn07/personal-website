@@ -572,3 +572,14 @@ rightContact{
         width: auto;
     }
   }
+
+  
+@media screen and (min-width: 1024px) {
+    body{
+        margin: 0 auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        max-width: 950px;
+        zoom: 1.8;
+    }
+}
