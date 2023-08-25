@@ -234,13 +234,59 @@ rightContact{
 
     .hamburgerMenu span {
         color: #6FFFE9;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     home{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    
+    navigation{
+        position: fixed;
+        z-index: 99;
+        right: 2rem;
+    }
+
+    mobile-nav{
+        position: fixed;
+        top:0;
+        left:100%;
+        width: 100%;
+        min-height: 30%;
+        display: block;
+        z-index: 97;
+        background-color:#0B132B ;
+        opacity: 99%;
+        padding-top: 5rem;
+        transition: 0.3s;
+    }
+
+    mobile-nav.is-active{
+        left:0;
+    }
+
+    mobile-nav ul{
+        opacity: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        height: 10rem;
+        justify-content: space-evenly;
+    }
+
+    mobile-nav a{
+        margin-top: 1rem;
+        background-color: #836fb333;
+        text-align: center;
+        width: 100%;
+        padding: .3rem;
+    }
+
+    
+    mobile-nav a:hover{
+        background-color: #7d3a9794;
     }
 
     #display{
@@ -424,6 +470,10 @@ rightContact{
         padding-left: 5rem;
         padding-right: 5rem;
         max-width: 950px;
+    }
+
+    mobile-nav{
+        display: none;
     }
 
     .hamburgerMenu{
