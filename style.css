@@ -154,7 +154,7 @@ header {
     align-items: center;
 }
 
-.techStack .stack headerTS{
+.techStack .stack headerts{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -318,16 +318,34 @@ rightContact{
     }
     
     .stack{
-        width: 355px;
-        height: 230px;
+        width: 17rem;
+        height: 15rem;
     }
 
     .techStack {
         display: flex;
         flex-direction: column;
+        align-content: center;
+    }
+
+    .techStack .stack headerts{
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-between;
     }
     
+    .techStack .stack h1{
+        font-size: 1.5rem;
+        padding-right:1rem;
+        padding-left:.8rem;
+    }
+
+    .techStack .stack .material-symbols-outlined{
+        margin-left: 1rem;
+        border: .25rem solid;
+    }
+ 
     projects h1{
         font-size: 3rem;
         padding-top: 2rem;
