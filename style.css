@@ -33,6 +33,10 @@ header {
     margin-bottom: 1rem;
 }
 
+main .bg{
+    display: none;
+}
+
 header nav{
     width: 40%;
     margin-left: auto;
@@ -221,11 +225,7 @@ rightContact{
     body{
         margin-left:2.5rem;
         margin-right:2.5rem;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        background-attachment: fixed;
-        background-size: 150%;
+        background-image: none;
     }
     
     header{
@@ -233,6 +233,16 @@ rightContact{
         justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
+    }
+
+    main .bg{
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        width: 150%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .hamburgerMenu {
